@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+nav {
+    background-color: #222222;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}  
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+nav a {
+    color: white;
+}
+
+.container1 {
+    background-color: #9acd32;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.container1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.container1 {
+    margin: 0 0 30px;
+}
+
+.pavadinimas {
+    color:  #adff2f;
+}
+
+.pavadinimas {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pavadinimas {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.pavadinimas {
+    font-size: 63px;
+}
+
+.sakinys {
+    margin: 0 0 10px;
+}
+
+.sakinys {
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    color:  #adff2f;
+}
+
+.button-blue {
+    color: white;
+    background-color: blue;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.button-blue {
+    padding: 4px 6px;
+    font-size: 21px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aprasas {
+    text-align: center;
+}
+
+h1 small {
+    font-size: 65%;
+}
+
+h1 small {
+    color:#777 ;
+}
+
+h1 {
+    color: black;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h1 {
+    margin: 0.67em 0;
+}
+
+.container2 p {
+    font-size: 18px ;
+    margin-bottom: 20px;
+}
+
+.container2 p {
+    color: gray;
+}
+
+.container2 {
+   margin: 0 80px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    padding: 0 80px;
+}

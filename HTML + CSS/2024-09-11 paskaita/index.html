@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container-box{
+            min-height: 150px;
+            background: #e1f989;
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            padding: 4px;
+
+            display: grid;
+            gap: 10px;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 150px 105px 50px;
+            overflow: auto;
+}
+            /*
+                display: flex;
+                justify-content: center;
+                align-items: center; <!-- iscentruoja teksta elemento centre -->
+        */
+
+                /* grid-tamplete-columns:1fr dalina diva i vienodus dydzius, kiek yra 1fr*/
+       /*box px, gridas uzims tik dezutes dydzius, jei box 100% uzims visa grido dydi*/
+        .box {
+            height: 100px;
+            width: 100px;
+            background:orange;
+            border: 1px solid rgb(114, 75, 2);
+        }
+
+        .box-special{
+            background: red;
+            display: grid;
+            grid-row: 1.5/4;
+        
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-box">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-special"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+</body>
+</html>

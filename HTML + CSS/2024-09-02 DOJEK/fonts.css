@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Cerebri Sans Pro Medium";
+	src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-Medium.ttf")
+		format("truetype");
+}
+@font-face {
+	font-family: "Cerebri Sans Pro Bold";
+	src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-Bold.ttf")
+		format("truetype");
+}
+@font-face {
+	font-family: "Cerebri Sans Pro SemiBold";
+	src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-SemiBold.ttf")
+		format("truetype");
+}

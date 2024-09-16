@@ -1,0 +1,70 @@
+
+
+#document {
+    width: 350;
+    height: 1050;
+    border: 1px solid black;
+    padding: 40px 20px;
+}
+
+#document section {
+    margin-bottom: 50px;
+}
+
+#document h2, #document h3 {
+    margin: 5px 0;
+}
+
+#document h2 {
+    font-size: 14px;
+}
+
+#document h3 {
+    font-size: 11px;
+}
+
+#document section.rekvizitai {
+    display: flex;
+    justify-content: space-between;
+}
+
+#document section.rekvizitai .row .row-value {
+    font-size: 11px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#document section.rekvizitai .row .row-name {
+    font-size: 7px;
+    text-align: center;
+}
+
+#document section.buyer-section {
+    margin-right: 5px;
+}
+
+table#prekes,
+table#prekes th ,
+table#prekes td {
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+
+table#rekvizitai,
+table#rekvizitai th ,
+table#rekvizitai td {
+ border-bottom: 1px solid black;
+ border-collapse: collapse;
+}
+
+.text-center {
+    text-align: center;
+    font-family: Times new roman 14px;
+}
+
+
+.document-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

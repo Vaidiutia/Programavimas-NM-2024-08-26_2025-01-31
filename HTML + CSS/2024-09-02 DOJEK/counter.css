@@ -1,0 +1,36 @@
+#counter {
+    background-color: #f8f9fa;
+    padding: 90px 0px;
+    position: relative;
+}
+
+.counter-container{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 12px;
+    position: relative;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: 261px;
+    padding: 0 12px;
+}
+
+.c-c-h2 {
+    font-family: Cerebri,sans-serif;
+    font-size: 32px;
+    color: #343a40;
+    text-align: center;
+    margin: 0 0 8px;
+}
+
+.c-c-p {
+    font-size: 16px;
+    color: #6c757d;
+    text-align: center;
+    margin: 0;
+}

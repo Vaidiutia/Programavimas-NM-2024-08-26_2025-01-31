@@ -1,0 +1,97 @@
+
+
+.latest-project-title {
+    max-width: 100%;
+    margin: 12px 0;
+
+    h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 50px;
+        margin: 0;
+        }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.all-project-title {
+    max-width: 100%;
+    height: 50px;
+
+    h6 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 10px;
+        margin: 0;
+        }
+
+    img {
+        height: 50px;
+        }
+}
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    flex: 0 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: 323px;
+    padding: 0 12px;
+}
+
+.card-text h5 {
+    font-family: Cerebri,sans-serif;
+    font-size: 18px;
+    margin: 0 0 4px;
+    color: #343a40;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card-position{
+    position: relative;
+}
+
+.project1{
+    position: relative;
+    bottom: -40px;
+    
+} 
+
+.project3{
+    position: relative;
+    bottom: -80px;  
+} 
+
+.box {
+    width: 263px;
+	height: 198px;
+}
+
+
+
+h2 {
+    background-color: rgb(56, 48, 48);
+    color: azure;
+    font-size: 50px;
+    width: 70px;
+    text-align: center;
+    text-indent: mi;
+    margin: 20px;
+    position: relative;
+    top: -75px;
+    right: -210px;
+    border-radius: 5px;
+}
+

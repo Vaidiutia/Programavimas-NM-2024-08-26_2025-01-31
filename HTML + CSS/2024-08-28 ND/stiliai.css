@@ -1,0 +1,28 @@
+
+.border{
+    border: 1px solid black;
+}
+
+table#prekes,
+table#prekes th ,
+table#prekes td {
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+
+table#rekvizitai,
+table#rekvizitai th ,
+table#rekvizitai td {
+ border-bottom: 1px solid black;
+ border-collapse: collapse;
+}
+
+h1 {
+    text-align: center;
+    font-family: Times new roman 14px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Times new roman 11px;
+}

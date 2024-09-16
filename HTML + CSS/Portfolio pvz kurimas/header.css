@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 254, 252);
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    padding: 20px 0px;
+    background-color: transparent;
+    box-shadow: 1px 1px 10px rgb(224, 224, 224);
+
+    a {text-decoration: none;
+    }
+}
+
+.conatiner {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 12px;
+}

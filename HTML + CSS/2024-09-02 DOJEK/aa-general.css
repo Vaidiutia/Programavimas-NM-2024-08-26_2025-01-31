@@ -1,0 +1,27 @@
+
+
+body{
+    margin:0;
+    
+    color:#212529;
+    box-sizing: border-box;
+    vertical-align: top;
+    /*background-color:#343a40;*/
+}
+
+header{
+    background-image: url(images/hero-bg.png);
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+*{
+	font-family: "Mandali", sans-serif;
+}

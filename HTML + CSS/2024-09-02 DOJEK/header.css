@@ -1,0 +1,111 @@
+.Hero {
+    background-image: url(images/hero-bg.png);
+}
+
+nav {
+	position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 0px;
+    background-color: transparent;
+    box-shadow: 1px 1px 10px rgb(224, 224, 224);
+}
+
+.top a {
+	display: inline-block;
+	color: #343a40;
+	line-height: 24px;
+	margin-right: 30px;
+	/* Nustato lėtą perėjimą spalvai per 300ms, lėtai įsijungiantį ir lėtai išsijungiantį */
+	transition: color 300ms ease-in-out;
+}
+		/* Hover savybė nurodo, kad tik užvedus pelytę ant bazinio (a) elemento jam prisitaiko/persirašo savybės */
+.top a:hover {
+	/* Perrašoma savybė color nustato naują spalvą */
+	color: #1ce1ac;
+}
+
+a {
+    text-decoration: none;
+}
+
+.discount-box {
+	display: inline-block;
+    background-color: #f8f9fa;
+    border: 1px solid #eceff2;
+    padding: 2px 15px;
+    color: #6c757d;
+    border-radius: 3px;
+	margin: 0 0 16px;
+}
+
+span {
+	color: #1ce1ac
+}
+
+.content {
+	padding: 0 12px;
+	width: 540px;
+}
+
+.hero-h1 {
+	font-family: Cerebri,sans-serif;
+	font-size: 60px;
+	letter-spacing: 2px;
+	margin: 0 0 24px;
+}
+
+.hero-p {
+	font-family: Mandali,sans-serif;
+	font-size: 18px;
+	margin: 0 0 48px;
+	color: #6c757d
+}
+.Hero {
+	padding: 200px 0 40px;
+}
+
+.hero-green-button {
+	background: linear-gradient(to right, #1ce1ac 0%, #8cf1d6 100%);
+    border: none;
+	border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 5px 20px rgb(52 58 64 / 10%);
+	margin: 0 24px 0 0;
+}
+
+button {
+	padding: 8px 24px;
+    border: 1px solid;
+    font-size: 16px;
+    transition: all 0.5s;
+    font-family: "Mandali", sans-serif;
+}
+
+.hero-btn {
+	display: flex;
+    align-items: center;
+}
+
+.hero-card {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-img{
+	width: 540px;
+}
+
+ul {
+	display: flex;
+    flex-wrap: wrap;
+	margin: 48px 0 16px;
+	padding: 48px 0 0;
+}
+
+.ul-list {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
